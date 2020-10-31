@@ -1,0 +1,81 @@
+.Card{
+    border:none;
+    border-radius:15px;
+    background:white;
+    max-width:450px;
+    padding:2em; 
+    -webkit-box-shadow: 0px 22px 46px -28px rgba(89,89,89,1);
+    -moz-box-shadow: 0px 22px 46px -28px rgba(89,89,89,1);
+    box-shadow: 0px 22px 46px -28px rgba(89,89,89,1);
+}
+
+.amountWrapper{
+    position: relative;
+    padding:5px 10px 5px 18px;
+    
+}
+.moneySign{
+    color:rgb(180, 180, 180);
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    top:7px;
+    left:0;
+}
+.PaymentHeader{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.amount{
+    display:inline-block;
+    font-family: 'Lato', sans-serif;
+}
+.year{
+    color:rgb(211, 211, 211);
+    font-family: 'Roboto', sans-serif;
+    
+}
+.Btn{
+    padding:20px 55px 20px 55px;
+    border-radius:5px;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border:2px solid rgb(202, 202, 202);
+}
+
+.Btn:focus{
+    outline-color: #296CF2;
+}
+
+.greyText{
+    color:rgb(128, 128, 128);
+    font-family: 'Roboto', sans-serif;
+}
+.BtnWrapper{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.rangeSlider{
+    width:100%;
+}
+.sliderWrapper{
+    position: relative;
+    padding-bottom:20px;
+}
+.minValue,.maxValue{
+    color:rgb(172, 172, 172);
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom:0;
+}
+.minValue{
+    left:0; 
+}
+
+.maxValue{
+    right:0;
+}

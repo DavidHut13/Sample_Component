@@ -1,0 +1,89 @@
+.Card{
+    border:none;
+    border-radius:15px;
+    background:white;
+    max-width:550px;
+    padding:2.5em;  
+    -webkit-box-shadow: 0px 22px 46px -28px rgba(89,89,89,1);
+    -moz-box-shadow: 0px 22px 46px -28px rgba(89,89,89,1);
+    box-shadow: 0px 22px 46px -28px rgba(89,89,89,1);
+}
+.greyText{
+    color:rgb(128, 128, 128);
+    font-family: 'Lato', sans-serif;
+}
+.SelectedPlan{
+    border:2px solid rgb(120, 120, 255);
+    background-color:rgb(244, 244, 255);
+    border-radius:5px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 0 20px 0;
+}
+.amountWrapper{
+    position: relative;
+    padding:5px 10px 5px 18px;
+    
+}
+.moneySign{
+    color:rgb(180, 180, 180);
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    top:7px;
+    left:0;
+}
+.PaymentHeader{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.amount{
+    display:inline-block;
+    font-family: 'Lato', sans-serif;
+}
+.year{
+    color:rgb(211, 211, 211);
+    font-family: 'Roboto', sans-serif;
+    
+}
+.BlueSquare{
+    background:#275AF2;
+    border-radius:9px;
+    color:white;
+    height:70px;
+    width:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.blueText{
+    color:#275AF2;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom:0;
+}
+
+.EmailInput{
+    padding:.75rem;
+    width:100%;
+    margin:1rem 0 1rem 0;
+    border:1px solid rgb(199, 199, 199);
+    border-radius:3px;
+    outline:none;
+}
+.EmailInput:focus{
+    box-shadow: 0 0 1pt 1pt #296CF2;
+}
+.PayBtn{
+    font-weight: bold;
+}
+.CvcInput{
+    border-radius:3px;
+    border:1px solid rgb(180, 180, 180);
+    padding:5px;
+}
+.CvcInput:focus{
+    outline-color:#296CF2 ;
+}
